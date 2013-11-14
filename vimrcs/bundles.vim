@@ -20,12 +20,12 @@ Bundle 'othree/xml.vim'
 Bundle 'sjl/gundo.vim.git'
 Bundle 'klen/python-mode'
 Bundle 'davidhalter/jedi-vim'
+Bundle 'majutsushi/tagbar'
 
 " vim-scripts repos
 Bundle 'c.vim'
 Bundle 'ctrlp.vim'
 Bundle 'vimwiki'
-Bundle 'taglist.vim'
 
 " non github repos
 Bundle 'git://git.wincent.com/command-t.git'

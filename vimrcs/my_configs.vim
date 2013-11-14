@@ -27,9 +27,8 @@ map <leader>n :NERDTreeToggle<CR>
 " Toggle Gundo
 nnoremap <leader>u :GundoToggle<CR>
 
-" Toggle Taglist
-map <leader>s :TlistToggle<CR>
-let Tlist_Use_Right_Window=1
+" Toggle Tagbar
+map <leader>s :TagbarToggle<CR>
 
 "=============================================================
 " GUI Options
@@ -37,6 +36,7 @@ let Tlist_Use_Right_Window=1
 
 if has("gui_running")
     set guioptions-=m
+    set lines=55 columns=150
 endif
 
 " VimWiki Options
