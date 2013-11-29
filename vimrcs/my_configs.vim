@@ -1,7 +1,3 @@
-"=============================================================
-" Misc
-"=============================================================
-
 " Show line numbers
 set number
 
@@ -15,29 +11,32 @@ set undodir=~/.vim_runtime/tmp/undo/
 " Follow tags
 nnoremap t <C-]>
 
+" Search for tags file in parents
+"set tags=./tags;
+
 " Change window size with arrow keys
 nnoremap <C-Up> <C-w>-
 nnoremap <C-Down> <C-w>+
 nnoremap <C-Left> <C-w><
 nnoremap <C-Right> <C-w>>
 
-" Toggle NERDTree
-map <leader>n :NERDTreeToggle<CR>
-
-" Toggle Gundo
-nnoremap <leader>u :GundoToggle<CR>
-
-" Toggle Tagbar
-map <leader>s :TagbarToggle<CR>
-
-"=============================================================
 " GUI Options
-"=============================================================
-
 if has("gui_running")
     set guioptions-=m
     set lines=55 columns=150
 endif
+
+" Toggle NERDTree
+map <F2> :NERDTreeToggle<CR>
+
+" Toggle Gundo
+nnoremap <F3> :GundoToggle<CR>
+
+" Toggle Tagbar
+map <F4> :TagbarToggle<CR>
+
+" Open .vimrc
+map <F5> :e $MYVIMRC<CR>
 
 " VimWiki Options
 let g:vimwiki_hl_cb_checked = 1

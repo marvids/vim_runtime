@@ -14,6 +14,7 @@ Bundle 'gmarik/vundle'
 "
 " original repos on github
 Bundle 'tpope/vim-surround.git'
+Bundle 'tpope/vim-fugitive.git'
 Bundle 'scrooloose/nerdtree.git'
 Bundle 'msanders/snipmate.vim'
 Bundle 'othree/xml.vim'
@@ -21,6 +22,7 @@ Bundle 'sjl/gundo.vim.git'
 Bundle 'klen/python-mode'
 Bundle 'davidhalter/jedi-vim'
 Bundle 'majutsushi/tagbar'
+Bundle 'amiorin/vim-project'
 
 " vim-scripts repos
 Bundle 'c.vim'
@@ -28,7 +30,7 @@ Bundle 'ctrlp.vim'
 Bundle 'vimwiki'
 
 " non github repos
-Bundle 'git://git.wincent.com/command-t.git'
+"Bundle 'git://git.wincent.com/command-t.git'
 " ...
 
 " local bundles
