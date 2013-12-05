@@ -36,10 +36,13 @@ nnoremap <F3> :GundoToggle<CR>
 map <F4> :TagbarToggle<CR>
 
 " Open .vimrc
-map <F5> :e $MYVIMRC<CR>
+map <F12> :e $MYVIMRC<CR>
 
 " VimWiki Options
 let g:vimwiki_hl_cb_checked = 1
 let wiki = {}
 let wiki.nested_syntaxes = {'xml': 'xml', 'c': 'c'}
 let g:vimwiki_list = [wiki]
+
+" Project settings
+let g:project_use_nerdtree = 1

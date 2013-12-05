@@ -23,6 +23,9 @@ Bundle 'klen/python-mode'
 Bundle 'davidhalter/jedi-vim'
 Bundle 'majutsushi/tagbar'
 Bundle 'amiorin/vim-project'
+Bundle 'jmcantrell/vim-virtualenv'
+Bundle 'bling/vim-airline'
+"Bundle 'Lokaltog/powerline'
 
 " vim-scripts repos
 Bundle 'c.vim'
@@ -35,7 +38,7 @@ Bundle 'vimwiki'
 
 " local bundles
 try
-source ~/.vim_runtime/local_bundles.vim
+source ~/.vim_runtime/vimrcs/local/bundles.vim
 catch
 endtry
 
