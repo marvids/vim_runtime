@@ -46,3 +46,11 @@ let g:vimwiki_list = [wiki]
 
 " Project settings
 let g:project_use_nerdtree = 1
+
+" Show whitespace
+set listchars=tab:>-,trail:~,extends:>,precedes:<
+set list
+
+" Highlight too long lines
+highlight OverLength ctermbg=red ctermfg=white guibg=#892929
+match OverLength /\%81v.\+/
