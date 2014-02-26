@@ -24,6 +24,7 @@ nnoremap <C-Right> <C-w>>
 if has("gui_running")
     set guioptions-=m
     set lines=55 columns=150
+    set guifont=UbuntuMono
 endif
 
 " Toggle NERDTree
@@ -49,8 +50,14 @@ let g:project_use_nerdtree = 1
 
 " Show whitespace
 set listchars=tab:>-,trail:~,extends:>,precedes:<
+hi NonText ctermfg=7 guifg=#505050
+hi SpecialKey ctermfg=7 guifg=#505050
 set list
 
 " Highlight too long lines
-highlight OverLength ctermbg=red ctermfg=white guibg=#892929
-match OverLength /\%81v.\+/
+"highlight OverLength ctermbg=red ctermfg=white guibg=#892929
+"match OverLength /\%81v.\+/
+
+let g:pymode_rope = 0
+let g:pymode_lint = 0
+	

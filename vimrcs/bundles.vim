@@ -38,7 +38,7 @@ Bundle 'vimwiki'
 
 " local bundles
 try
-source ~/.vim_runtime/vimrcs/local/bundles.vim
+source ~/.vim/vimrcs/local/bundles.vim
 catch
 endtry
 
