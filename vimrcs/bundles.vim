@@ -26,6 +26,7 @@ Bundle 'amiorin/vim-project'
 Bundle 'jmcantrell/vim-virtualenv'
 Bundle 'bling/vim-airline'
 "Bundle 'Lokaltog/powerline'
+Bundle 'christoomey/vim-tmux-navigator'
 
 " vim-scripts repos
 Bundle 'c.vim'
